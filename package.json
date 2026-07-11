@@ -1,0 +1,17 @@
+{
+  "name": "jucas",
+  "version": "0.1.0",
+  "description": "Jucas — catering management platform for Shriram Caterers & Events (Shrirampur). Lead-to-invoice event operations: proposals, ingredient scaling, contract-labor payouts, WhatsApp-first communication.",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node --no-warnings src/server.js",
+    "seed": "node --no-warnings src/db/seed.js",
+    "dev": "node --no-warnings --watch src/server.js",
+    "test": "node --no-warnings --test \"test/**/*.test.js\""
+  },
+  "dependencies": {},
+  "license": "UNLICENSED"
+}
