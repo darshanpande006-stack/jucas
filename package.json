@@ -10,7 +10,8 @@
     "start": "node --no-warnings src/server.js",
     "seed": "node --no-warnings src/db/seed.js",
     "dev": "node --no-warnings --watch src/server.js",
-    "test": "node --no-warnings --test \"test/**/*.test.js\""
+    "test": "node --no-warnings --test \"test/**/*.test.js\"",
+    "build:demo": "npm i --no-save sql.js esbuild && node browser/build.js"
   },
   "dependencies": {},
   "license": "UNLICENSED"
