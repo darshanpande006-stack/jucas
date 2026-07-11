@@ -1,0 +1,9 @@
+{
+  "name": "Jucas — Shriram Caterers",
+  "short_name": "Jucas",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f7f4",
+  "theme_color": "#166534",
+  "icons": []
+}
